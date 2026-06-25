@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+config.json
+client.log
+retry_queue.json
+dist/
+build/
+*.spec
+*.mp3

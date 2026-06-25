@@ -1,0 +1,6 @@
+requests>=2.32.0
+pywin32>=306
+pystray>=0.19.5
+Pillow>=10.0.0
+keyring>=25.0.0
+pyinstaller>=6.5.0

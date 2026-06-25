@@ -3,5 +3,5 @@ chcp 65001 >nul
 cd /d %~dp0
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python -m PyInstaller --noconfirm --clean --windowed --name notion_paste_board --collect-all keyring --hidden-import win32timezone client.py
+python build_exe.py
 pause
